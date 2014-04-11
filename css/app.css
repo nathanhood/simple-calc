@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Londrina+Outline);
+button {
+  color: white;
+  background-color: #FF4719;
+  font-size: 1.2em;
+}
+input {
+  border: 2px solid #FF4719;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+#exp {
+  margin-right: 10px;
+}
+#fac {
+  margin-right: 10px;
+}
+body {
+  background-color: #8B8B8B;
+}
+h1 {
+  font-family: 'Londrina Outline', sans-serif;
+  margin-bottom: 15px;
+  font-size: 55px;
+}
+#answer,
+#answer2 {
+  font-size: 1.5em;
+  margin-left: 15px;
+  font-weight: bold;
+}
