@@ -2,10 +2,10 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Client Template
-    link(rel='stylesheet', href='/css/app.css')
+    title Simple Calculator
+    link(rel='stylesheet', href='css/app.css')
   body
-    h1 Simple Calc
+    h1 Simple Calculator
     input#num1(type='text')
     button#add +
     button#sub -
@@ -13,15 +13,15 @@ html(lang='en')
     button#div &divide;
     button#exp &times&sup2;
     input#num2(type='text')
-    span =
+    span#equal =
     span#answer
 
     br
     input#num3(type='text')
     button#root &radic;
     button#fac !
-    span =
+    span#equal =
     span#answer2
 
-    script(src='/js/vendor/jquery-2.1.0.js')
-    script(src='/js/source/main.js')
+    script(src='js/vendor/jquery-2.1.0.js')
+    script(src='js/source/main.js')
